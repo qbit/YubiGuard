@@ -1,4 +1,4 @@
-use <MCAD/boxes.scad> 
+use <MCAD/boxes.scad>
 
 mainBox=[8.9, 19.3, 3.75];
 yubiKey=[44, 17.9, 3.35];
@@ -11,5 +11,3 @@ difference() {
         cube(yubiKey, center=true);
     }
 }
-
-
